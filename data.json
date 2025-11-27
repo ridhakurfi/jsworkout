@@ -1,0 +1,42 @@
+[
+    {
+        "task": "Bikin aplikasi",
+        "id": 1
+    },
+    {
+        "task": "Main Node.js",
+        "id": 2
+    },
+    {
+        "task": "Berenang",
+        "id": 3
+    },
+    {
+        "task": "Bulutangkis",
+        "id": 4
+    },
+    {
+        "task": "Ngajar",
+        "id": 5
+    },
+    {
+        "task": "Gym",
+        "id": 6
+    },
+    {
+        "task": "Makan",
+        "id": 7
+    },
+    {
+        "task": "Baiki Hape",
+        "id": 8
+    },
+    {
+        "task": "Jaga toko",
+        "id": 9
+    },
+    {
+        "task": "Nyapu jalan",
+        "id": 10
+    }
+]
