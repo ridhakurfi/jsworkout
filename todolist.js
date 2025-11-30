@@ -1,40 +1,34 @@
-const command = process.argv.slice(2);
-const input1 = command[0];
-const input2 = Number(command[1]);
-const input3 = Number(command[2]);
-const gate = command[0] === undefined || command[1] === undefined;
-const guide = `please input correctly`;
+const action1 = process.argv[2];
+const action2 = process.argv[3];
+const action3 = process.argv[4];
 
-switch (input1) {
+const rules =
+  action1 === undefined || action2 === undefined || action3 === undefined;
+
+function tutor() {
+  console.log("");
+  console.log("Input is as follows => node abc.js command1 command2 command3");
+  console.log("");
+  console.log("--add command2 command3");
+  console.log("--minus command2 command3");
+  console.log("--multiply command2 command3");
+  console.log("--divide command2 command3");
+}
+
+switch (action1) {
   case "add":
-    if (gate) {
-      console.log(guide);
-    } else {
-      console.log(input2 + input3);
-    }
+    rules ? tutor() : console.log(Number(action2) + Number(action3));
     break;
   case "minus":
-    if (gate) {
-      console.log(guide);
-    } else {
-      console.log(input2 - input3);
-    }
+    rules ? tutor() : console.log(Number(action2) - Number(action3));
     break;
   case "multiply":
-    if (gate) {
-      console.log(guide);
-    } else {
-      console.log(input2 * input3);
-    }
+    rules ? tutor() : console.log(Number(action2) * Number(action3));
     break;
   case "divide":
-    if (gate) {
-      console.log(guide);
-    } else {
-      console.log(input2 / input3);
-    }
+    rules ? tutor() : console.log(Number(action2) / Number(action3));
     break;
   default:
-    console.log(guide);
+    tutor();
     break;
 }
