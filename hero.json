@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "hero": "Solar Hawk",
+        "power": "Light manipulation"
+    },
+    {
+        "id": 2,
+        "hero": "Night Phantom",
+        "power": "Intangible shadow form"
+    },
+    {
+        "id": 3,
+        "hero": "Jamaludin",
+        "power": "Baseketball"
+    },
+    {
+        "id": 4,
+        "hero": "Aqua Surge",
+        "power": "Water shaping and pressure control"
+    },
+    {
+        "id": 5,
+        "hero": "Blaze Runner",
+        "power": "Super speed with heat trail"
+    },
+    {
+        "id": 6,
+        "hero": "Geo Titan",
+        "power": "Stone armor and earth control"
+    },
+    {
+        "id": 7,
+        "hero": "Star Whisper",
+        "power": "Future awareness through starlight"
+    },
+    {
+        "id": 8,
+        "hero": "Frost Viper",
+        "power": "Venomous ice breath"
+    },
+    {
+        "id": 9,
+        "hero": "Thunder Monk",
+        "power": "Soundwave combat chants"
+    },
+    {
+        "id": 10,
+        "hero": "Nebula Rogue",
+        "power": "Teleportation through space dust"
+    }
+]
