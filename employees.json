@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "position": "Software Engineer"
+    },
+    {
+        "id": 2,
+        "name": "Jerma",
+        "position": "Cereal Killer"
+    },
+    {
+        "id": 3,
+        "name": "Siti Rahma",
+        "position": "UI/UX Designer"
+    },
+    {
+        "id": 4,
+        "name": "David Kim",
+        "position": "Backend Developer"
+    },
+    {
+        "id": 5,
+        "name": "Nur Aisyah",
+        "position": "Frontend Developer"
+    },
+    {
+        "id": 6,
+        "name": "John Miller",
+        "position": "QA Tester"
+    },
+    {
+        "id": 7,
+        "name": "Rina Putri",
+        "position": "HR Specialist"
+    },
+    {
+        "id": 8,
+        "name": "Philip Carter",
+        "position": "DevOps Engineer"
+    },
+    {
+        "id": 9,
+        "name": "Andre Tan",
+        "position": "Data Analyst"
+    },
+    {
+        "id": 10,
+        "name": "Maya Salsabila",
+        "position": "Scrum Master"
+    }
+]
