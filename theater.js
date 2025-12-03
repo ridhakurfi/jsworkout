@@ -37,7 +37,7 @@ function editMovie(id, title, genre) {
   fs.writeFileSync("./movies.json", JSON.stringify(movies, null, 4));
   console.log(movies);
 }
-// editMovie(2, "Ace Ventura", "Action");
+// editMovie(2, "Ace Ventura 2", "Action");
 
 function deleteMovie(id){
     let movies = readMovie().filter(mv=>mv.id!==id)
