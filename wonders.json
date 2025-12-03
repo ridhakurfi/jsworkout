@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Great Wall of China",
+        "country": "China"
+    },
+    {
+        "id": 2,
+        "name": "Petra",
+        "country": "Jordan"
+    },
+    {
+        "id": 3,
+        "name": "Christ the Redeemer",
+        "country": "Brazil"
+    },
+    {
+        "id": 4,
+        "name": "Machu Picchu",
+        "country": "Peru"
+    },
+    {
+        "id": 5,
+        "name": "Chichen Itza",
+        "country": "Mexico"
+    },
+    {
+        "id": 6,
+        "name": "Roman Colosseum",
+        "country": "Italy"
+    },
+    {
+        "id": 7,
+        "name": "Taj Mahal",
+        "country": "India"
+    },
+    {
+        "id": 8,
+        "name": "Great Pyramid of Giza",
+        "country": "Egypt"
+    },
+    {
+        "id": 9,
+        "name": "Angkor Wat",
+        "country": "Cambodia"
+    },
+    {
+        "id": 10,
+        "name": "Moai Statues",
+        "country": "Easter Island"
+    }
+]
