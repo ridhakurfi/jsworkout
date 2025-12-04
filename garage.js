@@ -37,7 +37,7 @@ function editVH(id, weapon, movement) {
   fs.writeFileSync("./vehicle.json", JSON.stringify(vehicles, null, 4));
   return `congrats`;
 }
-// console.log(editVH(11, "Sonor Sonic Boom", "Teleporter"));
+// console.log(editVH(11, "Sonoring Sonic Boom", "Teleporter"));
 
 function deleteVH(id) {
   const vehicles = readVH().filter((vh) => vh.id !== id);
