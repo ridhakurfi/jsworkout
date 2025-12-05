@@ -41,4 +41,4 @@ function createLevel(id, modifier, place) {
   levels.push(new Level(id, modifier, place));
   return levels;
 }
-console.log(createLevel(11, "Leafy", "Terrarium"));
+console.log(createLevel(11, "Leaf", "Terrarium"));
