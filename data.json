@@ -36,7 +36,11 @@
         "id": 9
     },
     {
-        "task": "Nyapu jalan",
+        "task": "Cukur",
         "id": 10
+    },
+    {
+        "task": "Doa",
+        "id": 11
     }
 ]

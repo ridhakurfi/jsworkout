@@ -17,6 +17,9 @@ class View {
     const { task, id } = data;
     console.log(`ID ${id}, name of task ${task}`);
   }
+  static delete(data){
+    console.log("Sucess to delete ID", data.id);
+  }
   static help() {
     console.log("");
     console.log("-- Welcome --");

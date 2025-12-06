@@ -15,6 +15,9 @@ switch (command) {
   case "edit":
     Controller.edit(param1, param2);
     break;
+  case "delete":
+    Controller.delete(param1);
+    break;
   default:
     Controller.help();
     break;

@@ -31,18 +31,22 @@ class Model {
     }
     const data = new ToDo(task, +id);
     datas.push(data);
-    Model.save(result);
+    Model.save(datas);
     return data;
   }
   static edit(id, task) {
     const datas = Model.load();
     const data = datas.filter((dt) => dt.id !== +id);
-    console.log(id, task, data, datas.length === data.length,"<<<<<<<<<<<<<<<<<<<");
-    if (datas.length === data.length) {
-      return;
-    }
-    let newData = new ToDo(id, task)
+    let newData = new ToDo(task, +id);
     data.push(newData);
+    data.sort((a, b) => a.id - b.id);
+    Model.save(data);
+    return newData;
+  }
+  static delete(id) {
+    const data = Model.load().find((td) => td.id === +id);
+    const datas = Model.load().filter((td) => td.id !== +id);
+    Model.save(datas);
     return data;
   }
 }

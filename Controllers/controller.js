@@ -22,6 +22,14 @@ class Controller {
     };
     View.edit(data)
   }
+  static delete(id){
+    const data = Model.delete(id)
+    if (!data) {
+      View.error()
+      return
+    }
+    View.delete(data)
+  }
   static help() {
     View.help();
   }
