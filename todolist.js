@@ -1,23 +1,21 @@
-const fs = require("fs");
+const Controller = require("./Controllers/controller");
 
-class Todo {
-  constructor(id, task) {
-    this.task = task;
-    this.id = id;
-  }
+const [command, param1, param2] = process.argv.slice(2);
+
+switch (command) {
+  case "list":
+    Controller.list();
+    break;
+  case "find":
+    Controller.findById(param1);
+    break;
+  case "create":
+    Controller.create(param1, param2);
+    break;
+  case "edit":
+    Controller.edit(param1, param2);
+    break;
+  default:
+    Controller.help();
+    break;
 }
-
-function findAll() {
-  let todos = fs.readFileSync("./data.json", "utf8");
-  
-  todos = JSON.parse(todos);
-  console.log(todos);
-
-  let result = todos.map((todo) => {
-    return new Todo(todo.id, todo.task);
-  });
-
-  return result;
-}
-
-findAll()
